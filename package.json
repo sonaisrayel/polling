@@ -1,0 +1,34 @@
+{
+  "name": "polling",
+  "description": "Real time polling app",
+  "version": "1.0.0",
+  "author": "sonaisrayel",
+  "bugs": {
+    "url": "https://github.com/sonaisrayel/polling/issues"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.8",
+    "pusher": "^4.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^7.16.0",
+    "fixpack": "^3.0.6",
+    "nodemon": "^2.0.6"
+  },
+  "homepage": "https://github.com/sonaisrayel/polling#readme",
+  "license": "MIT",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sonaisrayel/polling.git"
+  },
+  "scripts": {
+    "dev": "nodemon app.js",
+    "fix": "fixpack",
+    "start": "node app.js",
+    "lint": "node_modules/eslint/bin/eslint.js app.js --fix"
+  }
+}
