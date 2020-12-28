@@ -1,0 +1,16 @@
+{
+    "poll-config": {
+      "dbConfig": {
+        "host": "localhost",
+        "port": 5984,
+        "dbName": "customers"
+      },
+      "pusher": {
+        "appId": "1129349",
+        "key": "295d0de0c7b7f39950a3",
+        "secret": "4a12e9f7d15bd4e33204",
+        "cluster": "eu",
+        "useTLS": true
+      }
+    }
+  }
